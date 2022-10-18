@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Contact Freshly Restaurant">
+	<title>Freshly Restaurant - Contact us</title>
+	<link rel="icon" href="favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Athiti:500|Merienda:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/brands.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/solid.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<a href="index.html" class="logo">
+				<img src="img/logo.png" alt="Logo Freshly Restaurant">
+				<strong>Freshly restaurant</strong>
+			</a>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="menus.html">Menus</a></li>
+					<li><a href="contact.html" class="active">Contact</a></li>
+				</ul>
+			</nav>
+		</div> <!-- end of .container -->
+	</header>
+	<main class="container">
+		<h1>Contact us</h1>
+		<p class="select">If your want to make a reservation, please complete this form.</p>
+		<p class="mandatory">Fields with <abbr title="(required)" aria-hidden="true">*</abbr> are required.</p>
+		<form action="#" method="post">
+			<div>
+				<fieldset>
+					<legend>Reservation</legend>
+					<label for="date"><abbr title="(required)" aria-hidden="true">*</abbr> Date</label>
+					<input type="date" id="date" required>
+					<label for="time"><abbr title="(required)" aria-hidden="true">*</abbr> Time</label>
+					<input type="time" id="time" required>
+					<label for="guests"><abbr title="(required)" aria-hidden="true">*</abbr> Number of guests</label>
+					<input type="number" id="guests" required>
+				</fieldset>
+				<fieldset>
+					<legend>Details</legend>
+					<label for="name"><abbr title="(required)" aria-hidden="true">*</abbr> Name</label>
+					<input type="text" id="name" required>
+					<label for="email">Email</label>
+					<input type="email" id="email">
+					<label for="tel"><abbr title="(required)" aria-hidden="true">*</abbr> Telephone</label>
+					<input type="tel" id="tel" required>
+				</fieldset>
+			</div>
+			<label for="request" class="request">Further request</label>
+			<textarea id="request"></textarea>
+			<p><input type="submit" value="Reserve"></p>
+		</form>
+		<div class="map">
+			<h2>Our location</h2>
+			<iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-74.00132596492769%2C40.73365735272384%2C-73.99950206279756%2C40.73476096226166&amp;layer=mapnik"></iframe>
+		</div><!-- end of .map -->
+	</main>
+	<footer>
+		<div class="container">
+			<div class="flex">
+				<aside>
+					<h4>Opening hours</h4>
+					<ul>
+						<li>Monday: Closed</li>
+						<li>Tue-Wed : 9am - 10pm</li>
+						<li>Thu-Fri : 9am - 10pm</li>
+						<li>Sat-Sun : 5pm - 10pm</li>
+					</ul>
+				</aside>
+				<aside>
+					<h4>Contact</h4>
+					<address>
+						<p>13 Christopher Street<br>
+							New York,<br>
+							NY 10014-3543</p>
+						<p>+01 2000 800 9999</p>
+					</address>
+				</aside>
+				<aside>
+					<h4>Social networks</h4>
+					<div class="reseaux">
+						<a href="#" class="fab fa-facebook-f"></a>
+						<a href="#" class="fab fa-instagram"></a>
+						<a href="#" class="fab fa-pinterest-p"></a>
+					</div>
+				</aside>
+			</div> <!-- end of .flex -->
+			<div class="footer">
+
+			</div> <!-- end of .footer -->
+		</div> <!-- end of .container -->
+	</footer>
+</body>
+
+</html>
